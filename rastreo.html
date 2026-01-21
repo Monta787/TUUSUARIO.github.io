@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Rastreo de Envío</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4fff6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .card {
+            background-color: #ffffff;
+            width: 400px;
+            padding: 30px;
+            border-radius: 16px;
+            box-shadow: 0 14px 30px rgba(0, 128, 0, 0.25);
+            border-top: 10px solid #2e7d32;
+            text-align: center;
+        }
+
+        .title {
+            font-size: 28px;
+            color: #1b5e20;
+            margin-bottom: 5px;
+        }
+
+        .empresa {
+            font-weight: bold;
+            color: #4caf50;
+            letter-spacing: 1.5px;
+            margin-bottom: 25px;
+        }
+
+        .estado-principal {
+            background-color: #e8f5e9;
+            padding: 14px;
+            border-radius: 10px;
+            margin-bottom: 22px;
+            font-size: 16px;
+            color: #1b5e20;
+            font-weight: bold;
+        }
+
+        .fase {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 14px;
+            margin-bottom: 14px;
+            border-radius: 10px;
+            border: 1px solid #c8e6c9;
+            background-color: #ffffff;
+            font-size: 16px;
+        }
+
+        .fase.activa {
+            background-color: #2e7d32;
+            color: #ffffff;
+            font-weight: bold;
+            box-shadow: 0 6px 15px rgba(46, 125, 50, 0.4);
+        }
+
+        .fase.completada {
+            background-color: #a5d6a7;
+            color: #1b5e20;
+            font-weight: bold;
+        }
+
+        .footer {
+            margin-top: 20px;
+            font-size: 13px;
+            color: #4caf50;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="card">
+
+        <div class="title">Rastreo de Envío</div>
+        <div class="empresa">SERVIENTREGA</div>
+
+        <div class="estado-principal">
+            Estado actual del envío
+        </div>
+
+        <div class="fase completada">
+            Fase 1: Pedido despachado
+        </div>
+
+        <div class="fase activa">
+            Fase 2: En transcurso
+        </div>
+
+        <div class="fase">
+            Fase 3: Entregado
+        </div>
+
+        <div class="footer">
+            Gracias por confiar en nuestro servicio 💚
+        </div>
+
+    </div>
+
+</body>
+</html>
